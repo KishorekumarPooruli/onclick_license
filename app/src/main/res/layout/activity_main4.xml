@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#82B1FF"
+    tools:context="com.opensourece.foss.drivinglicence.Main4Activity">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        android:text="Apply Driving license"
+        android:onClick="DR"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/textView20"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="Services on Driving License"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="serviceDR"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Note"
+        android:layout_marginBottom="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Driving License"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

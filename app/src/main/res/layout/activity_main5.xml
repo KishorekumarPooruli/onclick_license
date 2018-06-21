@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#82B1FF"
+    tools:context="com.opensourece.foss.drivinglicence.Main5Activity">
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="upload docx"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="upload"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="view docx"
+        android:onClick="viewapp"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignTop="@+id/button15"
+        android:layout_alignLeft="@+id/button18"
+        android:layout_alignStart="@+id/button18" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button15"
+        android:layout_alignStart="@+id/button15"
+        android:layout_below="@+id/button15"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Application status"
+        android:onClick="appli"/>
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="print llr"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="printllr"
+        android:layout_alignTop="@+id/button17"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginBottom="95dp"
+        android:text="know  your rto"
+        android:onClick="rto"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button17"
+        android:layout_alignStart="@+id/button17" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button18"
+        android:layout_alignRight="@+id/button18"
+        android:layout_alignTop="@+id/button21"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="print application form"
+        android:onClick="printform"/>
+</RelativeLayout>

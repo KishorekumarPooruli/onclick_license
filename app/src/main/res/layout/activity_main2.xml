@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#82B1FF"
+    tools:context="com.opensourece.foss.drivinglicence.Main2Activity">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:text="Mock Test for LL"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="mock"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Online Practice for mock"
+        android:onClick="online"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/button8"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonlayer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Sample Ques paper"
+        android:onClick="sample"
+        android:layout_marginTop="77dp"
+        android:layout_below="@+id/button9"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="Mock Test"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
