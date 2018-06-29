@@ -13,6 +13,9 @@ https://github.com/Kishorekumar007DoN/onclick_license/tree/master/apkfile
 
 Repo_URl:https://github.com/Kishorekumar007DoN/onclick_license.git
 
+
+uiscreensdemo:  https://github.com/Kishorekumar007DoN/onclick_license/tree/master/ui_screens_for_app_demo
+
 Developed_by:
 
 Kishorekumar P B
