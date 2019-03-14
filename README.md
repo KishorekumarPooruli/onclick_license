@@ -8,13 +8,13 @@ Software:Android Studio
 Language:Java
 
 
-Output APK:
+# Output APK:
 https://github.com/Kishorekumar007DoN/onclick_license/tree/master/apkfile
 
 Repo_URl:https://github.com/Kishorekumar007DoN/onclick_license.git
 
 
-uiscreensdemo:  https://github.com/Kishorekumar007DoN/onclick_license/tree/master/ui_screens_for_app_demo
+# uiscreensdemo:  https://github.com/Kishorekumar007DoN/onclick_license/tree/master/ui_screens_for_app_demo
 
 Developed_by:
 
