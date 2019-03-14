@@ -1,7 +1,11 @@
 # onclick_license
 Indian_License_reg_in_a_simple_app
 
-This is simple app for Indian_License_apply_ONCLICK_LICENSE
+This is simple android-app for Indian_License_apply_ONCLICK_LICENSE
+
+The user can apply/renewal their driving license and view status of the application.
+
+
 
 
 Software:Android Studio
