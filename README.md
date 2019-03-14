@@ -16,18 +16,21 @@ XML(front-end VIEW)
 
 
 # Output APK:
+
 https://github.com/Kishorekumar007DoN/onclick_license/tree/master/apkfile
 
 Repo_URl:https://github.com/Kishorekumar007DoN/onclick_license.git
 
 
-# uiscreensdemo:  https://github.com/Kishorekumar007DoN/onclick_license/tree/master/ui_screens_for_app_demo
+# uiscreensdemo:  
+
+https://github.com/Kishorekumar007DoN/onclick_license/tree/master/ui_screens_for_app_demo
 
 # Developed_by:
 
 # Kishorekumar P B
 
-# https://www.linkedin.com/in/kishorekumarpooruli/
+https://www.linkedin.com/in/kishorekumarpooruli/
 
 queries:crazykishore2015@gmail.com
 
