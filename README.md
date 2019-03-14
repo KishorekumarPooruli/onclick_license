@@ -9,7 +9,10 @@ The user can apply/renewal their driving license and view status of the applicat
 
 
 Software:Android Studio
-Language:Java
+Language Stack: 
+Java (Back-end CONTROLLER)
+XML(front-end VIEW)
+
 
 
 # Output APK:
